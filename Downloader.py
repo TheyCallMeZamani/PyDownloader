@@ -73,12 +73,6 @@ class Downloader(QDialog):
 #        for link in soup.find_all('a'):
 #            self.txtbox.setHtml(str(link.get('href')))
 
-
-
-    #def browse_file(self):
-    #     save_file = QFileDialog.getSaveFileName(self, caption="Save File As", directory=".", filter="All Files (*.txt)")
-    #     self.save_location.setText(QDir.toNativeSeparators(save_file))
-
     def saveFileDialog(self):
         options = QFileDialog.Options()
         #options |= QFileDialog.DontUseNativeDialog
